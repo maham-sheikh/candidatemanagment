@@ -1,0 +1,33 @@
+/* App.css */
+nav {
+  background-color: #637a91; 
+  padding: 10px 20px;
+  text-align: center;
+}
+
+nav a {
+  color: white; 
+  text-decoration: none;
+  margin: 0 15px;
+  font-size: 16px; 
+  padding: 10px 15px; 
+  border-radius: 5px; 
+  transition: background-color 0.3s; 
+}
+
+nav a:hover {
+  background-color: #3c638d; 
+}
+
+
+@media (max-width: 600px) {
+  nav {
+    display: flex;
+    flex-direction: column; 
+  }
+
+  nav a {
+    display: block;
+    margin: 5px 0;
+  }
+}
